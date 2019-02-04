@@ -83,7 +83,7 @@ public class NewController : MonoBehaviour {
     void Duck()
     {
         Debug.Log("duck initiate");
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Debug.Log("crouch");
             while (legs[0].transform.localScale.x >= .25f){

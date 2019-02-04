@@ -103,6 +103,7 @@ ModelImporter:
     13700000: Material__26
     13700002: Material__27
     13700004: Material__28
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -116,7 +117,9 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'sb_leftfoot' : position error
+      = 8.850286 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -165,8 +168,462 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
-    human: []
-    skeleton: []
+    human:
+    - boneName: sb_pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftleg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightleg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftknee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightknee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftfoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightfoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftelbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightelbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_lefthand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_righthand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_lefttoe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_righttoe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_lefteye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_righteye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_upperlip
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftthumb
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftfinger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftfinger2
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_leftfinger3
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightthumb
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightfinger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightfinger2
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sb_rightfinger3
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: spongebob(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Material__26
+      parentName: spongebob(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Material__27
+      parentName: spongebob(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Material__28
+      parentName: spongebob(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_root
+      parentName: spongebob(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_pelvis
+      parentName: sb_root
+      position: {x: -0, y: 3.26877, z: 0.110233}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftleg
+      parentName: sb_pelvis
+      position: {x: -1.062, y: -0.518977, z: -0.050818}
+      rotation: {x: 0.5087414, y: 0.4911031, z: -0.5087414, w: -0.4911031}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: sb_leftknee
+      parentName: sb_leftleg
+      position: {x: -1.33057, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.05326813, w: 0.9985803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftfoot
+      parentName: sb_leftknee
+      position: {x: -0.79, y: 0.05, z: 0}
+      rotation: {x: 0.8421003, y: 0.53932095, z: 3.3023882e-17, w: 5.1563773e-17}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: sb_lefttoe
+      parentName: sb_leftfoot
+      position: {x: -0.714162, y: 0, z: 0}
+      rotation: {x: -0.17591488, y: -0.68487513, z: -0.17591488, w: 0.68487513}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: sb_rightleg
+      parentName: sb_pelvis
+      position: {x: 1.06067, y: -0.518977, z: -0.050818}
+      rotation: {x: 0.5087414, y: 0.4911031, z: -0.5087414, w: -0.4911031}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: sb_rightknee
+      parentName: sb_rightleg
+      position: {x: -1.33057, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.05326813, w: 0.9985803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightfoot
+      parentName: sb_rightknee
+      position: {x: -0.793687, y: 0.021995, z: 0}
+      rotation: {x: 0.8421003, y: 0.53932095, z: 3.3023882e-17, w: 5.1563773e-17}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: sb_righttoe
+      parentName: sb_rightfoot
+      position: {x: -0.714161, y: 0, z: 0}
+      rotation: {x: -0.17591488, y: -0.68487513, z: -0.17591488, w: 0.68487513}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: sb_spine
+      parentName: sb_pelvis
+      position: {x: -0, y: 0.788979, z: -0.018019}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_head
+      parentName: sb_spine
+      position: {x: -0, y: 1.41398, z: 0.054058}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_hair
+      parentName: sb_head
+      position: {x: -0, y: 2.89876, z: -0.45049}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_lefteye
+      parentName: sb_head
+      position: {x: -0.927, y: 1.49788, z: 0.159986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftlowerlid
+      parentName: sb_head
+      position: {x: -0.927, y: 1.49788, z: 0.159986}
+      rotation: {x: -0.024131536, y: 0, z: -0, w: 0.99970883}
+      scale: {x: 1, y: 0.99999964, z: 0.99999964}
+    - name: sb_leftupperlid
+      parentName: sb_head
+      position: {x: -0.927, y: 1.49788, z: 0.159986}
+      rotation: {x: 0.07124105, y: 0, z: -0, w: 0.9974592}
+      scale: {x: 1, y: 0.9999996, z: 0.9999996}
+    - name: sb_nose
+      parentName: sb_head
+      position: {x: -0, y: 0.56464, z: 1.09919}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_righteye
+      parentName: sb_head
+      position: {x: 0.925711, y: 1.49788, z: 0.159986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightlowerlid
+      parentName: sb_head
+      position: {x: 0.925711, y: 1.49788, z: 0.159986}
+      rotation: {x: -0.024131536, y: 0, z: -0, w: 0.99970883}
+      scale: {x: 1, y: 0.99999964, z: 0.99999964}
+    - name: sb_rightupperlid
+      parentName: sb_head
+      position: {x: 0.925711, y: 1.49788, z: 0.159986}
+      rotation: {x: 0.07124105, y: 0, z: -0, w: 0.9974592}
+      scale: {x: 1, y: 0.9999996, z: 0.9999996}
+    - name: sb_upperlip
+      parentName: sb_head
+      position: {x: -0, y: -0.008448, z: 1.18929}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftarm
+      parentName: sb_spine
+      position: {x: -2.49503, y: 0.113185, z: -0.011101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftelbow
+      parentName: sb_leftarm
+      position: {x: -1.28582, y: 0, z: -0.007079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_lefthand
+      parentName: sb_leftelbow
+      position: {x: -0.714437, y: 0, z: 0.007079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftfinger1
+      parentName: sb_lefthand
+      position: {x: -0.565715, y: 0.111777, z: 0.148677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftfinger2
+      parentName: sb_lefthand
+      position: {x: -0.562318, y: 0.111777, z: -0.024084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftfinger3
+      parentName: sb_lefthand
+      position: {x: -0.537107, y: 0.111777, z: -0.210168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftthumb
+      parentName: sb_lefthand
+      position: {x: -0.31499, y: -0.070442, z: 0.269034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_leftsleeve
+      parentName: sb_leftarm
+      position: {x: -0.099117, y: 0, z: -0.014159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_mouth
+      parentName: sb_spine
+      position: {x: -0, y: 0.629071, z: 1.07777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightarm
+      parentName: sb_spine
+      position: {x: 2.46655, y: 0.131249, z: -0.034897}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightelbow
+      parentName: sb_rightarm
+      position: {x: 1.29247, y: -0.025455, z: 0.005724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_righthand
+      parentName: sb_rightelbow
+      position: {x: 0.716929, y: 0.008484, z: 0.005724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightfinger1
+      parentName: sb_righthand
+      position: {x: 0.542814, y: 0.138098, z: 0.154569}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightfinger2
+      parentName: sb_righthand
+      position: {x: 0.600062, y: 0.138098, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightfinger3
+      parentName: sb_righthand
+      position: {x: 0.542814, y: 0.138098, z: -0.194643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightthumb
+      parentName: sb_righthand
+      position: {x: 0.348217, y: -0.066802, z: 0.26334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_rightsleeve
+      parentName: sb_rightarm
+      position: {x: 0.108771, y: 0, z: -0.005724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_tongue
+      parentName: sb_spine
+      position: {x: -0, y: 1.0784, z: 0.082299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_tonguetip
+      parentName: sb_tongue
+      position: {x: -0, y: 0.006042, z: 0.489716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_tie
+      parentName: sb_pelvis
+      position: {x: -0, y: 0.390925, z: 1.03815}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sb_tietip
+      parentName: sb_tie
+      position: {x: -0, y: -0.634897, z: 0.008354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
